@@ -12,7 +12,7 @@ if (section=='overall')
         if (indirank > 8 )
             - indirank = indirank - 18
         | In terms of people employed, it's the
-        | #[+value( Math.abs(indirank) , { 'TEXTUAL' : true })]
+        | #[+value( Math.abs(indirank) , { 'ORDINAL_TEXTUAL' : true })]
         | #[+value( (indirank > 0)? 'largest' : 'smallest')] 
         | of the 17 UK Standard Industrial Classification (SIC) industries.
 

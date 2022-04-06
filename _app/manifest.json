@@ -68,7 +68,7 @@
       "_Share-8c99fe20.js"
     ],
     "css": [
-      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
+      "assets/pages/industry copy/_slug_.svelte-d7a5f4f3.css"
     ]
   },
   "src/routes/occupation/__layout.reset.svelte": {
@@ -94,7 +94,7 @@
       "_Share-8c99fe20.js"
     ],
     "css": [
-      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
+      "assets/pages/industry copy/_slug_.svelte-d7a5f4f3.css"
     ]
   },
   "src/routes/industry/__layout.reset.svelte": {
@@ -120,7 +120,7 @@
       "_Share-8c99fe20.js"
     ],
     "css": [
-      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
+      "assets/pages/industry copy/_slug_.svelte-d7a5f4f3.css"
     ]
   },
   "src/routes/[id].svelte": {
