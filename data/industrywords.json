@@ -1,0 +1,53 @@
+{
+    "Agriculture": {
+        "desc": "Agricultural"
+    },
+    "Mining": {
+        "desc": "Mining"
+    },
+    "Manufacturing": {
+        "desc": "Manufacturing"
+    },
+    "Electricity": {
+        "desc": "Energy"
+    },
+    "Water": {
+        "desc": "Water supply"
+    },
+    "Construction": {
+        "desc": "Construction"
+    },
+    "Wholesale": {
+        "desc": "Wholesale and retail"
+    },
+    "Transport": {
+        "desc": "Industrial transport"
+    },
+    "Accommodation": {
+        "desc": "Accomodation and catering"
+    },
+    "Information": {
+        "desc": "Information and communication"
+    },
+    "Financial": {
+        "desc": "Financial"
+    },
+    "Real": {
+        "desc": "Real estate"
+    },
+    "Professional": {
+        "desc": "Professional"
+    },
+    "Administrative": {
+        "desc": "Administrative"
+    },
+    "Public": {
+        "desc": "Defence"
+    },
+    "Education": {
+        "desc": "Edeucation"
+    },
+    "Human": {
+        "desc": "Health and social work"
+    }
+}
