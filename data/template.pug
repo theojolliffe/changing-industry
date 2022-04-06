@@ -1,0 +1,30 @@
+if (section=='overall')
+    p
+        | Across England and Wales, #[+value(industry['total'][2021])] people work in this industry.
+        | This accounts for about 1 in 
+        | #[+value( Math.round( 1 / ( (industry['total'][2021]) / (industry_tot['total'][2021]) ) ) )]
+        | working people,
+        | or about 
+        | #[+value( ( (industry['total'][2021]) / (industry_tot['total'][2021]) ), {'FORMAT': '0.0%'})]
+        | of the workforce.
+    p
+        - var indirank = Object.values(industry_all).map(e => e.total[2021]).sort().indexOf(industry['total'][2021])
+        if (indirank > 8 )
+            - indirank = indirank - 18
+        | In terms of people employed, it's the
+        | #[+value( Math.abs(indirank) , { 'TEXTUAL' : true })]
+        | #[+value( (indirank > 0)? 'largest' : 'smallest')] 
+        | of the 17 UK Standard Industrial Classification (SIC) industries.
+
+if (section=='change')
+    h2 
+        | Transport industry booms in the East
+    p 
+        | In the ten years leading up to Census 2021, the East saw the greatest rise in the proportion of employed people working in Transport and storage (from 3% to 6%).
+    p 
+        | The industry has been growing steadily here since 1981, when 2% of the regional workforce were employed in this industry.
+
+if (section=='yourjob')
+    if (id!='default')
+        p 
+            | Of the 34 million employed people across England and Wales, about #[+value(occupations[id])] describe themselves as #[+value(uncap(occLU[id]))].

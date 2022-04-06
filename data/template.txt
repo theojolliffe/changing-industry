@@ -1,0 +1,20 @@
+p
+    | Across England and Wales, #[+value(industry['total'][2021])] people work in this industry.
+    | This accounts for about 1 in 
+    | #[+value( Math.round( 1 / ( (industry['total'][2021]) / (industry_tot['total'][2021]) ) ) )]
+    | working people,
+    | or about 
+    | #[+value( ( (industry['total'][2021]) / (industry_tot['total'][2021]) ), {'FORMAT': '0.0%'})]
+    | of the workforce.
+p
+    - var indirank = Object.values(industry_all).map(e => e.total[2021]).sort().indexOf(industry['total'][2021])
+    if (indirank > 8 )
+        - indirank = indirank - 18
+    | In terms of people employed, it's the
+    | #[+value( Math.abs(indirank) , { 'TEXTUAL' : true })]
+    | #[+value( (indirank > 0)? 'largest' : 'smallest')] 
+    | of the 17 UK Standard Industrial Classification (SIC) industries.
+p 
+    | fojafoiajifjoij
+//- p 
+//-     | kefji;ohci rirfjhi fijq w irfhai rfiuhauc euih fqweauhd kefji;ohci rirfjhi fijq w irfhai rfiuhauc euih fqweauhd kefji;ohci rirfjhi fijq w irfhai rfiuhauc euih fqweauhd kefji;ohci rirfjhi fijq w irfhai rfiuhauc euih fqweauhd kefji;ohci rirfjhi fijq w irfhai rfiuhauc euih fqweauhd kefji;ohci rirfjhi fijq w irfhai rfiuhauc euih fqweauhd 
