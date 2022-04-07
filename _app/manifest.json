@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-c4247f6b.js",
+    "file": "start-14834b6d.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -83,14 +83,14 @@
     ]
   },
   "src/routes/occupation/[occ].svelte": {
-    "file": "pages/occupation/_occ_.svelte-39463070.js",
+    "file": "pages/occupation/_occ_.svelte-a9fe986e.js",
     "src": "src/routes/occupation/[occ].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-29c5fe09.js",
       "_paths-396f020f.js",
-      "_Jobs-e8f99686.js",
+      "_Jobs-237a1b38.js",
       "_Share-8c99fe20.js"
     ],
     "css": [
@@ -124,7 +124,7 @@
     ]
   },
   "src/routes/[id].svelte": {
-    "file": "pages/_id_.svelte-09da4729.js",
+    "file": "pages/_id_.svelte-a72301b8.js",
     "src": "src/routes/[id].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -134,7 +134,7 @@
       "_singletons-a6a7384f.js",
       "_Module-5b299d54.js",
       "_Share-8c99fe20.js",
-      "_Jobs-e8f99686.js"
+      "_Jobs-237a1b38.js"
     ],
     "css": [
       "assets/pages/_id_.svelte-ada90b24.css"
@@ -177,14 +177,14 @@
       "assets/Share-a7dd1fd2.css"
     ]
   },
-  "_Jobs-e8f99686.js": {
-    "file": "chunks/Jobs-e8f99686.js",
+  "_Jobs-237a1b38.js": {
+    "file": "chunks/Jobs-237a1b38.js",
     "imports": [
       "_vendor-29c5fe09.js",
       "_Share-8c99fe20.js"
     ],
     "css": [
-      "assets/Jobs-7dbe5b4a.css"
+      "assets/pages/industry/_slug_.svelte-f6f1a41c.css"
     ]
   }
 }
