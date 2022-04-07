@@ -27,4 +27,8 @@ if (section=='change')
 if (section=='yourjob')
     if (id!='default')
         p 
-            | Of the 34 million employed people across England and Wales, about #[+value(occupations[id])] describe themselves as #[+value(uncap(occLU[id]))].
+            | Of the 34 million employed people across England and Wales, 
+            strong 
+                | about #[+value(occupations[id])] 
+            strong
+            | describe themselves as #[+value(uncap(occLU[id]))].
