@@ -1,10 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-da1ee7ba.js",
+    "file": "start-3e9da623.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js",
+      "_vendor-29c5fe09.js",
       "_singletons-a6a7384f.js",
       "_paths-396f020f.js"
     ],
@@ -21,35 +21,35 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-b5e306c8.js",
+    "file": "pages/__layout.svelte-1b0a5281.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js",
+      "_vendor-29c5fe09.js",
       "_paths-396f020f.js",
-      "_config-670dae07.js"
+      "_config-6262bf40.js"
     ],
     "css": [
       "assets/pages/__layout.svelte-b1a91349.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-8dfeef04.js",
+    "file": "error.svelte-3c10f7c8.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js"
+      "_vendor-29c5fe09.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-3a73edee.js",
+    "file": "pages/index.svelte-db7b0f0f.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js",
+      "_vendor-29c5fe09.js",
       "_paths-396f020f.js"
     ],
     "css": [
@@ -57,91 +57,91 @@
     ]
   },
   "src/routes/industry copy/[slug].svelte": {
-    "file": "pages/industry copy/_slug_.svelte-79fb5288.js",
+    "file": "pages/industry copy/_slug_.svelte-ca5d8bb5.js",
     "src": "src/routes/industry copy/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js",
+      "_vendor-29c5fe09.js",
       "_paths-396f020f.js",
-      "_Module-e7c1ba98.js",
-      "_Share-b83cf924.js"
+      "_Module-86cebb97.js",
+      "_Share-11ed7302.js"
     ],
     "css": [
-      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
+      "assets/pages/industry copy/_slug_.svelte-d7a5f4f3.css"
     ]
   },
   "src/routes/occupation/__layout.reset.svelte": {
-    "file": "pages/occupation/__layout.reset.svelte-5a18fe45.js",
+    "file": "pages/occupation/__layout.reset.svelte-571c1c1e.js",
     "src": "src/routes/occupation/__layout.reset.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js",
+      "_vendor-29c5fe09.js",
       "_paths-396f020f.js",
-      "_config-670dae07.js"
+      "_config-6262bf40.js"
     ]
   },
   "src/routes/occupation/[occ].svelte": {
-    "file": "pages/occupation/_occ_.svelte-8dd41d41.js",
+    "file": "pages/occupation/_occ_.svelte-5d258824.js",
     "src": "src/routes/occupation/[occ].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js",
+      "_vendor-29c5fe09.js",
       "_paths-396f020f.js",
-      "_Jobs-23948941.js",
-      "_Share-b83cf924.js"
+      "_Jobs-ade8af87.js",
+      "_Share-11ed7302.js"
     ],
     "css": [
-      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
+      "assets/pages/industry copy/_slug_.svelte-d7a5f4f3.css"
     ]
   },
   "src/routes/industry/__layout.reset.svelte": {
-    "file": "pages/industry/__layout.reset.svelte-8ab261f0.js",
+    "file": "pages/industry/__layout.reset.svelte-2ff041c4.js",
     "src": "src/routes/industry/__layout.reset.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js",
+      "_vendor-29c5fe09.js",
       "_paths-396f020f.js",
-      "_config-670dae07.js"
+      "_config-6262bf40.js"
     ]
   },
   "src/routes/industry/[slug].svelte": {
-    "file": "pages/industry/_slug_.svelte-eb40c5f1.js",
+    "file": "pages/industry/_slug_.svelte-ebab4057.js",
     "src": "src/routes/industry/[slug].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js",
+      "_vendor-29c5fe09.js",
       "_paths-396f020f.js",
-      "_Module-e7c1ba98.js",
-      "_Share-b83cf924.js"
+      "_Module-86cebb97.js",
+      "_Share-11ed7302.js"
     ],
     "css": [
-      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
+      "assets/pages/industry copy/_slug_.svelte-d7a5f4f3.css"
     ]
   },
   "src/routes/[id].svelte": {
-    "file": "pages/_id_.svelte-2220028b.js",
+    "file": "pages/_id_.svelte-da2aec1d.js",
     "src": "src/routes/[id].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-d8356f9c.js",
+      "_vendor-29c5fe09.js",
       "_paths-396f020f.js",
       "_singletons-a6a7384f.js",
-      "_Module-e7c1ba98.js",
-      "_Share-b83cf924.js",
-      "_Jobs-23948941.js"
+      "_Module-86cebb97.js",
+      "_Share-11ed7302.js",
+      "_Jobs-ade8af87.js"
     ],
     "css": [
       "assets/pages/_id_.svelte-ada90b24.css"
     ]
   },
-  "_vendor-d8356f9c.js": {
-    "file": "chunks/vendor-d8356f9c.js",
+  "_vendor-29c5fe09.js": {
+    "file": "chunks/vendor-29c5fe09.js",
     "css": [
       "assets/vendor-4ff902fe.css"
     ]
@@ -152,39 +152,39 @@
   "_paths-396f020f.js": {
     "file": "chunks/paths-396f020f.js"
   },
-  "_config-670dae07.js": {
-    "file": "chunks/config-670dae07.js",
+  "_config-6262bf40.js": {
+    "file": "chunks/config-6262bf40.js",
     "imports": [
-      "_vendor-d8356f9c.js"
+      "_vendor-29c5fe09.js"
     ]
   },
-  "_Module-e7c1ba98.js": {
-    "file": "chunks/Module-e7c1ba98.js",
+  "_Module-86cebb97.js": {
+    "file": "chunks/Module-86cebb97.js",
     "imports": [
-      "_vendor-d8356f9c.js",
-      "_Share-b83cf924.js"
+      "_vendor-29c5fe09.js",
+      "_Share-11ed7302.js"
     ],
     "css": [
       "assets/Module-32a4d315.css"
     ]
   },
-  "_Share-b83cf924.js": {
-    "file": "chunks/Share-b83cf924.js",
+  "_Share-11ed7302.js": {
+    "file": "chunks/Share-11ed7302.js",
     "imports": [
-      "_vendor-d8356f9c.js"
+      "_vendor-29c5fe09.js"
     ],
     "css": [
       "assets/Share-5e5e0c6c.css"
     ]
   },
-  "_Jobs-23948941.js": {
-    "file": "chunks/Jobs-23948941.js",
+  "_Jobs-ade8af87.js": {
+    "file": "chunks/Jobs-ade8af87.js",
     "imports": [
-      "_vendor-d8356f9c.js",
-      "_Share-b83cf924.js"
+      "_vendor-29c5fe09.js",
+      "_Share-11ed7302.js"
     ],
     "css": [
-      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
+      "assets/pages/industry copy/_slug_.svelte-d7a5f4f3.css"
     ]
   }
 }
