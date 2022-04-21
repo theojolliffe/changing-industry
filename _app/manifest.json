@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-83bd39c0.js",
+    "file": "start-ae9656d7.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -70,7 +70,7 @@
       "_Share-361cb07e.js"
     ],
     "css": [
-      "assets/pages/industry/_slug_.svelte-f6f1a41c.css"
+      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
     ]
   },
   "src/routes/occupation/__layout.reset.svelte": {
@@ -97,7 +97,7 @@
       "_SelectJob-ecfc37d1.js"
     ],
     "css": [
-      "assets/pages/industry/_slug_.svelte-f6f1a41c.css"
+      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
     ]
   },
   "src/routes/industry/__layout.reset.svelte": {
@@ -112,13 +112,13 @@
     ]
   },
   "src/routes/industry/Carousel.svelte": {
-    "file": "pages/industry/Carousel.svelte-5d0fe627.js",
+    "file": "pages/industry/Carousel.svelte-f6aa20b3.js",
     "src": "src/routes/industry/Carousel.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_vendor-f71fbfed.js",
-      "_Caro-8100211d.js",
+      "_Caro-eba02d1f.js",
       "_Share-361cb07e.js"
     ]
   },
@@ -135,11 +135,11 @@
       "_Share-361cb07e.js"
     ],
     "css": [
-      "assets/pages/industry/_slug_.svelte-f6f1a41c.css"
+      "assets/pages/occupation/_occ_.svelte-c83d3e23.css"
     ]
   },
   "src/routes/[id].svelte": {
-    "file": "pages/_id_.svelte-a812fe9b.js",
+    "file": "pages/_id_.svelte-58b73641.js",
     "src": "src/routes/[id].svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -150,7 +150,7 @@
       "_Module-09a927b2.js",
       "_Share-361cb07e.js",
       "_Jobs-cd2d8d76.js",
-      "_Caro-8100211d.js",
+      "_Caro-eba02d1f.js",
       "_SelectJob-ecfc37d1.js"
     ],
     "css": [
@@ -215,8 +215,8 @@
       "assets/Jobs-7dbe5b4a.css"
     ]
   },
-  "_Caro-8100211d.js": {
-    "file": "chunks/Caro-8100211d.js",
+  "_Caro-eba02d1f.js": {
+    "file": "chunks/Caro-eba02d1f.js",
     "imports": [
       "_vendor-f71fbfed.js",
       "_Share-361cb07e.js"
