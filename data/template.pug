@@ -1,6 +1,6 @@
 if (section=='overall')
     p
-        | Across England and Wales, #[+value(industry['total'][2021])] people work in this industry.
+        | Across England and Wales, about #[+value( Number(industry['total'][2021].toPrecision(2)) )] people work in this industry.
         | This accounts for about 1 in 
         | #[+value( Math.round( 1 / ( (industry['total'][2021]) / (industry_tot['total'][2021]) ) ) )]
         | working people,
@@ -16,13 +16,41 @@ if (section=='overall')
         | #[+value( (indirank > 0)? 'largest' : 'smallest')] 
         | of the 17 UK Standard Industrial Classification (SIC) industries.
 
+if (section=='info')
+    h2 
+        | Industry breakdown
+    p 
+        | This industry is comprised mainly of people working in 
+        | #[+value(indbreakdown[id][0][0].toLowerCase())] (#[+value(indbreakdown[id][0][1], {'FORMAT': '0%'})]), 
+        | #[+value(indbreakdown[id][1][0].toLowerCase())] (#[+value(indbreakdown[id][1][1], {'FORMAT': '0%'})]), and
+        | #[+value(indbreakdown[id][2][0].toLowerCase())] (#[+value(indbreakdown[id][2][1], {'FORMAT': '0%'})]).
+
 if (section=='change')
     h2 
+        - console.log('highestCha()', highestCha(industry))
         | #[+value(indlang[id]['desc'])] industry booms in the East
     p 
-        | In the ten years leading up to Census 2021, the East saw the greatest rise in the proportion of employed people working in #[+value(uncap(indlang[id]['desc']))] (from 3% to 6%).
+        | In the ten years leading up to Census 2021, 
+        | the East saw the greatest rise in the proportion of employed people 
+        | working in the #[+value(uncap(indlang[id]['desc']))] industry (from 3% to 6%).
     p 
         | The industry has been growing steadily here since 1981, when 2% of the regional workforce were employed in this industry.
+
+if (section=='highest')
+    h2 
+        | #[+value(regLU[highest(industry)])] a centre for #[+value(indlang[id]['desc2'].toLowerCase())]
+    p 
+        | There are about #[+value(Number(industry[highest(industry)][2021].toPrecision(2)))]
+        | people working in #[+value(indlang[id]['desc2'].toLowerCase())] 
+        | in the #[+value(regLU[highest(industry)])],
+        | more than any other part of England and Wales.
+        - console.log('highestPerc(ob)', highestPerc(industry))
+        | This figure represents about #[+value(highestPerc(industry), {'FORMAT': '0.0%'})] of the #[+value(regLU[highest(industry)])]'s population.
+    p 
+        | The #[+value(regLU[nextHighest(industry)])] has the next largest number,
+        | with about #[+value(Number(industry[nextHighest(industry)][2021].toPrecision(2)))] people, 
+        | or #[+value(nextHighestPerc(industry), {'FORMAT': '0.0%'})] of the local population, 
+        | working in the mining industry.
 
 if (section=='yourjob')
     if (id!='default')
@@ -32,3 +60,39 @@ if (section=='yourjob')
                 | about #[+value(occupations[id])] 
             strong
             | describe themselves as #[+value(uncap(occLU[id]))].
+        p 
+            | This figure increased from about #[+value(occupations[id]*0.8)] in 1981 and peaked at #[+value(Math.round(occupations[id]*1.1))] in 2001.
+
+if (section=='yourjob2')
+    h2 
+        | Popular in the North West
+    p 
+        | With #[+value(occupations[id]*0.19)] 
+        | #[+value(uncap(occLU[id]))], this job is particularly popular in the North West.
+    p 
+        | Wales, with about #[+value(occupations[id]*0.06)] workers, has fewer people in this occupation than any of the English regions.
+
+
+if (section=='jobsgen')
+    h2 
+        | A growing occupation
+    p 
+        | The number of #[+value(uncap(occLU['9272']))] rose from #[+value(Math.round(occupations['9272']*0.7))] 
+        - console.log('occupations', occupations)
+        | to #[+value(occupations['9272'])] between the last two censues. 
+        | In 1981, #[+value(Math.round(occupations['9272']*0.65))] people described themselves as such.
+    p 
+        | The region with the highest number of #[+value(occupations['9272'])] is the South East, with #[+value(Math.round(occupations['9272']*0.18))]. While the North West has seen a considerable increase, from #[+value(Math.round(occupations['9272']*0.02))] in 2011 to #[+value(Math.round(occupations['9272']*0.08))] in 2021.
+
+if (section=='jobsgen2')
+    h2 
+        | A job in decline
+    p 
+        - console.log('occLU', occLU)
+        | The number of #[+value(uncap(occLU['7113']))] fell from #[+value(Math.round(occupations['7113']*1.15))] 
+        | to #[+value(occupations['7113'])] between the last two censues. About #[+value(Math.round(occupations['7113']*0.91))] people held this job in 1981.
+    p 
+        | The South West saw a considerable drop between the last two censuses, from #[+value(Math.round(occupations['7113']*0.11))] to #[+value(Math.round(occupations['7113']*0.08))]. 
+        | During the same period, Yorkshire and the Humber saw an increase from #[+value(Math.round(occupations['7113']*0.08))] 
+        | to #[+value(Math.round(occupations['7113']*0.10))].
+

@@ -1,0 +1,19 @@
+{
+    "Agriculture": [["General farming", 0.37],["Animal production", 0.29],["Growing of crops", 0.19]],
+    "Mining": [["Extraction of crude petroleum and natural gas", 0.34],["General mining and quarrying", 0.31],["Mining of coal and lignite", 0.11]],
+    "Manufacturing": [["General manufacturing", 0.063],["Printing", 0.058],["Manufacturing of plastics", 0.043]],
+    "Electricity": [["Electric power generation, transmission and distribution",0.67],["Manufacture and distribution of gas",0.33],["Steam and air conditioning supply",0.005]],
+    "Water": [["Materials recovery",0.61],["Water collection, treatment and supply",32],["Sewage",0.5]],
+    "Construction": ["Construction of buildings","Civil engineering","Specialised construction activities"],
+    "Wholesale": [["",0],["",0],["",0]],
+    "Transport": [["",0],["",0],["",0]],
+    "Accommodation": [["",0],["",0],["",0]],
+    "Information": [["",0],["",0],["",0]],
+    "Financial": [["",0],["",0],["",0]],
+    "Real": [["",0],["",0],["",0]],
+    "Professional": [["",0],["",0],["",0]],
+    "Administrative": [["",0],["",0],["",0]],
+    "Public": [["",0],["",0],["",0]],
+    "Education": [["",0],["",0],["",0]],
+    "Human": [["",0],["",0],["",0]]
+}

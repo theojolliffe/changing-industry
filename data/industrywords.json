@@ -1,53 +1,70 @@
 {
     "Agriculture": {
-        "desc": "Agricultural"
+        "desc": "Agricultural",
+        "desc2": "Agriculture"
     },
     "Mining": {
-        "desc": "Mining"
+        "desc": "Mining",
+        "desc2": "Mining"
     },
     "Manufacturing": {
-        "desc": "Manufacturing"
+        "desc": "Manufacturing",
+        "desc2": "Manufacturing"
     },
     "Electricity": {
-        "desc": "Energy"
+        "desc": "Energy",
+        "desc2": "Energy"
     },
     "Water": {
-        "desc": "Water supply"
+        "desc": "Water supply",
+        "desc2": "Water supply"
     },
     "Construction": {
-        "desc": "Construction"
+        "desc": "Construction",
+        "desc2": "Construction"
     },
     "Wholesale": {
-        "desc": "Wholesale and retail"
+        "desc": "Wholesale and retail",
+        "desc2": "Wholesale and retail"
     },
     "Transport": {
-        "desc": "Industrial transport"
+        "desc": "Industrial transport",
+        "desc2": "Industrial transport"
     },
     "Accommodation": {
-        "desc": "Accomodation and catering"
+        "desc": "Accomodation and catering",
+        "desc2": "Accomodation and catering"
     },
     "Information": {
-        "desc": "Information and communication"
+        "desc": "Information and communication",
+        "desc2": "Information and communication"
     },
     "Financial": {
-        "desc": "Financial"
+        "desc": "Financial",
+        "desc2": "Finance"
     },
     "Real": {
-        "desc": "Real estate"
+        "desc": "Real estate",
+        "desc2": "Real estate"
     },
     "Professional": {
-        "desc": "Professional"
+        "desc": "Technical",
+        "desc2": "Technical professions"
     },
     "Administrative": {
-        "desc": "Administrative"
+        "desc": "Administrative",
+        "desc2": "Administration"
     },
     "Public": {
-        "desc": "Defence"
+        "desc": "Defence",
+        "desc2": "Defence"
     },
     "Education": {
-        "desc": "Edeucation"
+        "desc": "Education",
+        "desc2": "Education"
     },
     "Human": {
-        "desc": "Health and social work"
+        "desc": "Health and social work",
+        "desc2": "Health and social work"
     }
 }
